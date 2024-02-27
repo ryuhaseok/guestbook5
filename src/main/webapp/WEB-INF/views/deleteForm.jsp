@@ -6,8 +6,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="/mysite3/assets/css/mysite.css" rel="stylesheet" type="text/css">
-<link href="/mysite3/assets/css/guestbook.css" rel="stylesheet" type="text/css">
+<link href="/guestbook5/assets/css/mysite.css" rel="stylesheet" type="text/css">
+<link href="/guestbook5/assets/css/guestbook.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="wrap">
@@ -56,7 +56,7 @@
 								<td>비밀번호</td>
 								<td><input type="password" name="pw" value=""></td>
 								<td class="text-left"><button type="submit">삭제</button></td>
-								<td><a href="guestbook5/guest/addlistform">[메인으로 돌아가기]</a></td>
+								<td><a href="addlistform">[메인으로 돌아가기]</a></td>
 							</tr>
 						</table>
 						<input type='hidden' name="no" value="${requestScope.no}">
